@@ -1,1 +1,1 @@
-mkdir -p ~/sysadmin/Servicios/{Web/{Base_de_Datos,Cache},Monitoreo/{Logs,Alertas,Metricas}}
+mkdir -p ~/sysadmin/{Servicios/{Web/{Base_de_Datos,Cache},Monitoreo/{Logs,Alertas,Metricas}}
