@@ -1,0 +1,7 @@
+Filesystem                       Size  Used Avail Use% Mounted on
+tmpfs                            197M  996K  196M   1% /run
+/dev/sda1                         39G  1.7G   38G   5% /
+tmpfs                            982M     0  982M   0% /dev/shm
+tmpfs                            5.0M     0  5.0M   0% /run/lock
+home_vagrant_carpeta_compartida  461G  185G  276G  41% /home/vagrant/carpeta_compartida
+tmpfs                            197M  4.0K  197M   1% /run/user/1000
