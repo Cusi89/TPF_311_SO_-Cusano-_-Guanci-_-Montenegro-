@@ -37,7 +37,7 @@ EOF
 echo "¡Particionamiento completado con éxito!"
 sudo fdisk -l $DISCO
 
-HOME_USER="/home/vagrant"
+HOME_USER="/home/vagrant/TP_Final/TPF_311_SO_-Cusano-_-Guanci-_-Montenegro-"
 
 echo "Formateando particiones en ext4..."
 sudo mkfs.ext4 /dev/sdb1
