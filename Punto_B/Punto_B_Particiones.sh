@@ -6,7 +6,8 @@ DISCO="/dev/sdc"
 
 echo "Iniciando particionamiento automatizado en $DISCO..."
 
-sudo fdisk $DISCO << EOF
+sudo fdisk ${DISCO} << EOF
+o
 n
 p
 1
@@ -23,12 +24,15 @@ e
 
 
 n
+l
 
 +2.6G
 n
+l
 
 +2.6G
 n
+l
 
 
 w
@@ -36,6 +40,8 @@ EOF
 
 echo "¡Particionamiento completado con éxito!"
 sudo fdisk -l ${DISCO}
+
+sudo partprobe ${DISCO}
 
 HOME_USER="/home/vagrant/TP_Final/TPF_311_SO_-Cusano-_-Guanci-_-Montenegro-"
 
