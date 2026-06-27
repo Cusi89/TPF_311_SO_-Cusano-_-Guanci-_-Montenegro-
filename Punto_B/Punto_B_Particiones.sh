@@ -35,7 +35,7 @@ w
 EOF
 
 echo "¡Particionamiento completado con éxito!"
-sudo fdisk -l $DISCO
+sudo fdisk -l ${DISCO}
 
 HOME_USER="/home/vagrant/TP_Final/TPF_311_SO_-Cusano-_-Guanci-_-Montenegro-"
 
@@ -49,11 +49,11 @@ sudo mkfs.ext4 /dev/sdb7
 echo "Configurando montaje persistente en /etc/fstab..."
 # Usamos un bloque append para evitar modificar manualmente el archivo
 sudo bash -c "cat << EOF >> /etc/fstab
-/dev/sdb1  $HOME_USER/sysadmin/Servicios       ext4  defaults  0  2
-/dev/sdb2  $HOME_USER/sysadmin/Monitoreo       ext4  defaults  0  2
-/dev/sdb5  $HOME_USER/sysadmin/Servicios/Web   ext4  defaults  0  2
-/dev/sdb6  $HOME_USER/sysadmin/Servicios/Cache ext4  defaults  0  2
-/dev/sdb7  $HOME_USER/sysadmin/Monitoreo/Logs  ext4  defaults  0  2
+/dev/sdb1  ${HOME_USER}/sysadmin/Servicios       ext4  defaults  0  2
+/dev/sdb2  ${HOME_USER}/sysadmin/Monitoreo       ext4  defaults  0  2
+/dev/sdb5  ${HOME_USER}/sysadmin/Servicios/Web   ext4  defaults  0  2
+/dev/sdb6  ${HOME_USER}/sysadmin/Servicios/Cache ext4  defaults  0  2
+/dev/sdb7  ${HOME_USER}/sysadmin/Monitoreo/Logs  ext4  defaults  0  2
 EOF"
 
 echo "Aplicando montajes activos..."
