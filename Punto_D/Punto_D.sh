@@ -2,7 +2,7 @@
 # Punto D - Permisos
 # Rol: sysadmin
 
-BASE="~/home/vagrant/TP_Final/TPF_311_SO_-Cusano-_-Guanci-_-Montenegro-/sysadmin"
+BASE="sysadmin"
 
 echo "Aplicando permisos en Servicios (notacion octal)..."
 sudo chmod 755 ${BASE}/Servicios/Web
