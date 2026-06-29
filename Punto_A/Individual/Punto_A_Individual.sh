@@ -11,3 +11,11 @@ sudo touch ~/TP_Final/TPF_311_SO_-Cusano-_-Guanci-_-Montenegro-/sysadmin/Servici
 sudo touch ~/TP_Final/TPF_311_SO_-Cusano-_-Guanci-_-Montenegro-/sysadmin/Monitoreo/Logs/.gitkeep
 sudo touch ~/TP_Final/TPF_311_SO_-Cusano-_-Guanci-_-Montenegro-/sysadmin/Monitoreo/Alertas/.gitkeep
 sudo touch ~/TP_Final/TPF_311_SO_-Cusano-_-Guanci-_-Montenegro-/sysadmin/Monitoreo/Metricas/.gitkeep
+
+# 3. Crear archivos txt
+sudo touch ~/TP_Final/TPF_311_SO_-Cusano-_-Guanci-_-Montenegro-/sysadmin/Servicios/Web/1.txt
+sudo touch ~/TP_Final/TPF_311_SO_-Cusano-_-Guanci-_-Montenegro-/sysadmin/Servicios/Base_de_Datos/1.txt
+sudo touch ~/TP_Final/TPF_311_SO_-Cusano-_-Guanci-_-Montenegro-/sysadmin/Servicios/Cache/1.txt
+sudo touch ~/TP_Final/TPF_311_SO_-Cusano-_-Guanci-_-Montenegro-/sysadmin/Monitoreo/Logs/1.txt
+sudo touch ~/TP_Final/TPF_311_SO_-Cusano-_-Guanci-_-Montenegro-/sysadmin/Monitoreo/Alertas/1.txt
+sudo touch ~/TP_Final/TPF_311_SO_-Cusano-_-Guanci-_-Montenegro-/sysadmin/Monitoreo/Metricas/1.txt
