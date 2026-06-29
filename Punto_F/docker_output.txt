@@ -1,0 +1,3 @@
+NAME                  IMAGE       COMMAND                  SERVICE     CREATED         STATUS              PORTS
+punto_f-db-1          mariadb     "docker-entrypoint.s…"   db          6 minutes ago   Up 6 minutes        3306/tcp
+punto_f-wordpress-1   wordpress   "docker-entrypoint.s…"   wordpress   6 minutes ago   Up About a minute   0.0.0.0:8080->80/tcp, [::]:8080->80/tcp

@@ -1,39 +1,35 @@
 version: '3.8'
 
 services:
-  db:
-    image: mariadb:latest
-    container_name: db_wordpress
-    restart: always
-    environment:
-      MYSQL_ROOT_PASSWORD: root_password_utn
-      MYSQL_DATABASE: wordpress_db
-      MYSQL_USER: wp_user
-      MYSQL_PASSWORD: wp_password_utn
-    volumes:
-      - db_data:/var/lib/mysql
-    networks:
-      - red_utn
-
   wordpress:
-    image: wordpress:latest
-    container_name: site_wordpress
-    restart: always
+    image: wordpress
     ports:
       - "8080:80"
-    environment:
-      WORDPRESS_DB_HOST: db:3306
-      WORDPRESS_DB_USER: wp_user
-      WORDPRESS_DB_PASSWORD: wp_password_utn
-      WORDPRESS_DB_NAME: wordpress_db
-    depends_on:
-      - db
     networks:
       - red_utn
+    depends_on:
+      - db
+    environment:
+      WORDPRESS_DB_HOST: db
+      WORDPRESS_DB_USER: wp_user
+      WORDPRESS_DB_PASSWORD: wp_password
+      WORDPRESS_DB_NAME: wp_db
 
-volumes:
-  db_data:
+  db:
+    image: mariadb
+    networks:
+      - red_utn
+    environment:
+      MYSQL_DATABASE: wp_db
+      MYSQL_USER: wp_user
+      MYSQL_PASSWORD: wp_password
+      MYSQL_ROOT_PASSWORD: root_password
+    volumes:
+      - db_data:/var/lib/mysql
 
 networks:
   red_utn:
     driver: bridge
+
+volumes:
+  db_data:
