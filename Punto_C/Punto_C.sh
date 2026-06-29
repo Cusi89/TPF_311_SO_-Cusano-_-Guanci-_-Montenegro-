@@ -30,8 +30,8 @@ id u_dev
 
 echo "Generando archivo de validacion requerido..."
 
-id u_sysadmin > Punto_C/id_output.txt
-id u_manager >> Punto_C/id_output.txt
-id u_dev >> Punto_C/id_output.txt
+id u_sysadmin > ~/TP_Final/TPF_311_SO_-Cusano-_-Guanci-_-Montenegro-/Punto_C/id_output.txt
+id u_manager >> ~/TP_Final/TPF_311_SO_-Cusano-_-Guanci-_-Montenegro-/Punto_C/id_output.txt
+id u_dev >> ~/TP_Final/TPF_311_SO_-Cusano-_-Guanci-_-Montenegro-/Punto_C/id_output.txt
 
 echo "¡Punto C completado con éxito!"
