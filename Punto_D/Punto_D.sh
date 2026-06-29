@@ -2,7 +2,7 @@
 # Punto D - Permisos
 # Rol: sysadmin
 
-BASE="/sysadmin"
+BASE="~/sysadmin"
 
 echo "Aplicando permisos en Servicios (notacion octal)..."
 sudo chmod 755 ${BASE}/Servicios/Web
