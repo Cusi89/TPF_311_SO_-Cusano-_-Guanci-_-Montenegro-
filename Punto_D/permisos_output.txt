@@ -1,14 +1,14 @@
 total 36
 drwxr-xr-x 6 root    root     4096 Jun 28 22:18 .
 drwxrwxr-x 4 vagrant vagrant  4096 Jun 23 21:18 ..
-drwxr-xr-x 2 root    root     4096 Jun 28 22:18 Alertas
-drwxr-xr-x 3 root    root     4096 Jun 28 22:22 Logs
-drwxr-xr-x 2 root    root     4096 Jun 28 22:18 Metricas
+drwx------ 2 root    root     4096 Jun 29 01:46 Base_de_Datos
+drw-r--r-- 3 root    root     4096 Jun 29 01:46 Cache
+drwxr-xr-x 3 root    root     4096 Jun 29 01:46 Web
 drwx------ 2 root    root    16384 Jun 27 23:18 lost+found
 total 36
 drwxr-xr-x 6 root    root     4096 Jun 28 22:18 .
 drwxrwxr-x 4 vagrant vagrant  4096 Jun 23 21:18 ..
-drwxr-xr-x 2 root    root     4096 Jun 28 22:18 Base_de_Datos
-drwxr-xr-x 3 root    root     4096 Jun 28 22:22 Cache
-drwxr-xr-x 3 root    root     4096 Jun 28 22:22 Web
+drwx------ 2 root    root     4096 Jun 29 01:46 Alertas
+drwxr-xr-- 3 root    root     4096 Jun 29 01:46 Logs
+drwxr-xr-x 2 root    root     4096 Jun 29 01:46 Metricas
 drwx------ 2 root    root    16384 Jun 27 23:18 lost+found

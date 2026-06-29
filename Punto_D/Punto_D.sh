@@ -2,7 +2,7 @@
 # Punto D - Permisos
 # Rol: sysadmin
 
-BASE="~/sysadmin"
+BASE="/home/vagrant/TP_Final/TPF_311_SO_-Cusano-_-Guanci-_-Montenegro-/sysadmin"
 
 echo "Aplicando permisos en Servicios (notacion octal)..."
 sudo chmod 755 ${BASE}/Servicios/Web
@@ -15,5 +15,5 @@ sudo chmod u=rwx,g=,o= ${BASE}/Monitoreo/Alertas
 sudo chmod u=rwx,g=rx,o=rx ${BASE}/Monitoreo/Metricas
 
 echo "Listo! Verificando permisos:"
-ls -la ${BASE}/Servicios/ > Punto_D/permisos_output.txt
-ls -la ${BASE}/Monitoreo/ >> Punto_D/permisos_output.txt
+ls -la ${BASE}/Servicios/ > /home/vagrant/TP_Final/TPF_311_SO_-Cusano-_-Guanci-_-Montenegro-/Punto_D/permisos_output.txt
+ls -la ${BASE}/Monitoreo/ >> /home/vagrant/TP_Final/TPF_311_SO_-Cusano-_-Guanci-_-Montenegro-/Punto_D/permisos_output.txt
