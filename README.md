@@ -4,6 +4,9 @@ Repositorio para TP de Arquitectura y Sistemas Operativos
 
 ## Alumnos
 
-- Cusano, Ivan (Sysadmin)
-- Guanci, Sandro (Dev)
-- Montenegro, Bruno (Manager)
+| Nombre | Rol |
+|--------|-----|
+| Cusano, Ivan | Sysadmin |
+| Guansi, Sandro | Dev |
+| Montenegro, Bruno | Manager |
+
