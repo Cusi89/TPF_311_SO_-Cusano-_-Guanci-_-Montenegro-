@@ -13,4 +13,4 @@ Repositorio para TP de Arquitectura y Sistemas Operativos
 ## Metodología de trabajo
 Cada integrante realizó sus commits desde su propia VM, identificando
 el rol en cada mensaje de commit con el prefijo correspondiente
-(Sysadmin:, Manager:, Dev:).
+("Sysadmin:", "Manager:", "Dev:").
