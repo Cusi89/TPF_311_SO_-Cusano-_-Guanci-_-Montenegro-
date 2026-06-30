@@ -1,5 +1,7 @@
 #!/bin/bash
 
+HOME_USER="/home/vagrant/TP_Final/TPF_311_SO_-Cusano-_-Guanci-_-Montenegro-"
+
 echo "Configurando montaje persistente en /etc/fstab..."
 # Usamos un bloque append para evitar modificar manualmente el archivo
 sudo bash -c "cat << EOF >> /etc/fstab
