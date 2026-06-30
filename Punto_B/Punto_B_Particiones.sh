@@ -43,8 +43,6 @@ sudo fdisk -l ${DISCO}
 
 sudo partprobe ${DISCO}
 
-HOME_USER="/home/vagrant/TP_Final/TPF_311_SO_-Cusano-_-Guanci-_-Montenegro-"
-
 echo "Formateando particiones en ext4..."
 sudo mkfs.ext4 /dev/sdc1
 sudo mkfs.ext4 /dev/sdc2
