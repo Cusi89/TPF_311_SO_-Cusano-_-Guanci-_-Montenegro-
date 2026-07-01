@@ -6,12 +6,12 @@ Repositorio para TP de Arquitectura y Sistemas Operativos
 
 | Nombre | Rol |
 |--------|-----|
-| Cusano, Ivan | Sysadmin |
-| Guanci, Sandro | Dev |
-| Montenegro, Bruno | Manager |
+| Cusano, Ivan | Sysadmin/Dev/Manager |
+
 
 ## Metodología de trabajo
-Cada integrante realizó sus commits desde su propia VM, identificando
+Este trabajo fue realizado de forma individual.
+Cada perfil realizó sus commits desde su propia VM, identificando
 el rol en cada mensaje de commit con el prefijo correspondiente
 ("Sysadmin:", "Manager:", "Dev:").
 
