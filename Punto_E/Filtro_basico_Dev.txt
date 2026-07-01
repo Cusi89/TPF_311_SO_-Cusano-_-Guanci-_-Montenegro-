@@ -1,0 +1,7 @@
+MemTotal: 2010784 kB
+
+--- PROCESADOR ---
+model name	: 13th Gen Intel(R) Core(TM) i7-1355U
+cpu MHz		: 2611.212
+model name	: 13th Gen Intel(R) Core(TM) i7-1355U
+cpu MHz		: 2611.212
